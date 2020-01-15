@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.dropdown .dropdown-toggle-button {
+  width: 100%;
+  background: white;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.dropdown .dropdown-toggle-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.dropdown .dropdown-toggle-button.focus,
+.dropdown .dropdown-toggle-button:focus {
+  color: black !important;
+  background-color: white !important;
+  border-color: rgba(0, 0, 0, 0.125) !important;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d37324;
+  color: white;
+}
+
+.pagination-container span.text-warning-m:hover {
+  cursor: pointer;
+}
+
+.info-container {
+  max-width: "800px";
+}
+
+.mr-auto {
+  width: 100%;
+  justify-content: flex-end;
+}
+.mw-80 {
+  max-width: 80% !important;
+}
+.btn-warning {
+  background-color: #d37324 !important;
+}
+
+.text-warning-m {
+  color: #ea7f28 !important;
+}
+
+.ft-sz-12 {
+  font-size: 12px;
 }
